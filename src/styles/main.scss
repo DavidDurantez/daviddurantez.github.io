@@ -1,0 +1,81 @@
+@import "lib/normalize";
+@import "lib/fontawesome";
+@import "lib/devicon";
+
+@import 'fonts';
+@import 'base';
+@import 'vars';
+@import 'animation';
+
+// HEADER
+
+.header {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.nav-element {
+    display: inline-block;
+    margin-right:20px;
+    font-weight: bold;
+}
+
+// MAIN IMAGE
+
+.main-section {
+    min-height:750px;
+    background-image: url('/assets/img/main_image.png');
+    background-size: cover;
+    margin-bottom: 300px;
+}
+
+// PORTFOLIO
+
+.portfolio {
+    display:flex;
+    flex-direction: column;
+}
+
+.portfolio-section {
+    height:600px;
+    display:flex;
+    align-items: center;
+    
+    &:nth-child(even) {
+        direction: rtl;
+        text-align: left;
+    }
+}
+
+.portfolio-sub-section {
+    margin: 0 auto;
+}
+
+.portfolio-sub-section-description {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    p {
+        color:white;
+        &.description-title {
+            font-size: large;
+        }
+    }
+}
+
+.portfolio-sub-section-1_4 {
+    width:25%
+}
+.portfolio-sub-section-3_4 {
+    width:75%;
+    background-size: cover;
+    height:100%
+}

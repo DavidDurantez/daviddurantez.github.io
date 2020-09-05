@@ -1,0 +1,18 @@
+# Site settings
+title: David Durántez Stolle
+description: Personal portfolio of David Durántez
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: David</br> Durántez Stolle
+user_description: I want to make videogames.
+email: durantez@hotmail.es
+
+# Google-analytics
+google-analytics:
+  id: "UA-164550461-1"
+
+exclude: ['package.json', 'src' , 'node_modules']
+
+theme: jekyll-theme-midnight

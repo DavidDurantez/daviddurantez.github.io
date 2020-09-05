@@ -1,0 +1,11 @@
+<div class="portfolio-section" style="background-color: #{{ include.data.color | strip}} ">
+    <div class="portfolio-sub-section portfolio-sub-section-1_4">
+        <div class="portfolio-sub-section-description">
+            <p class="description-title">{{ include.data.description-title }}</p>
+            <p>
+                {{ include.data.description-long }}
+            </p>
+        </div>
+    </div>
+    <div class="portfolio-sub-section-3_4" style="background-image:url(/assets/img/{{include.data.image-source | strip}})"></div>
+</div>

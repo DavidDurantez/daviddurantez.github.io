@@ -1,0 +1,8 @@
+<div class="portfolio">
+{% for section in site.data.portfolio_sections %}
+{% capture section_data %}
+{{ section }}
+{% endcapture %}
+{% include portfolio/portfolio_section.html data=section %}
+{% endfor %}
+</div>
